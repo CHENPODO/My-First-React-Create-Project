@@ -1,0 +1,14 @@
+.custom-list li::before {
+	list-style: none;
+	content: "";
+	display: inline-block;
+	background-image: url("../public/images/logo.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	margin-right: 8px;
+}
+.custom-list li {
+	list-style: none;
+}
